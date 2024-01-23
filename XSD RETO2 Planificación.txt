@@ -1,0 +1,23 @@
+XSD RETO2 Planificación
+
+El elemento RESERVA tiene los siguientes elementos:
+	CLIENTE
+	FECHA
+
+El elemento CLIENTE tiene los siguientes atributos:
+	DNI
+	
+
+El elemento CLIENTE tiene los siguientes elementos:
+	Nombre
+	Apellido
+	Teléfono
+	Dirección 
+	Número de personas
+
+Dentro de DIRECCIÓN tenemos los siguientes elementos:
+	Calle
+	Número
+	Ciudad
+	
+	
