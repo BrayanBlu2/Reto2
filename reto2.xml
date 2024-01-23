@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<registro xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="reto2.xsd">
+    <reserva>        
+        <fechaentrada>2024-01-23</fechaentrada> <!-- La fecha de entrada de la primera reserva-->
+        <fechasalida>2024-01-30</fechasalida><!-- La fecha de saluda de la primera reserva-->
+    <cliente dni="12345678A"> <!-- Datos del cliente que ha reservado para alojarse el 23/01/2023-->
+            <nombre>Carlos</nombre> 
+            <apellido>Alvarez</apellido>   
+            <teléfono>654659825</teléfono> 
+            <dirección>
+                <calle>Los Astilleros</calle> 
+                <número>12</número>
+                <ciudad>Vigo</ciudad>
+            </dirección>
+            <cantidad>2</cantidad>  
+    </cliente> 
+</reserva>
+<reserva> 
+    <fechaentrada>2024-01-23</fechaentrada> <!-- La fecha de entrada de la primera reserva-->
+    <fechasalida>2024-01-30</fechasalida><!-- La fecha de saluda de la primera reserva-->
+    <cliente dni="17896526B">
+        <nombre>Marta</nombre> 
+        <apellido>Rico</apellido>   
+        <teléfono>666547898</teléfono> 
+        <dirección>
+            <calle>Lope de Vega</calle> 
+            <número>34</número>
+            <ciudad>Madrid</ciudad>
+        </dirección>
+        <cantidad>1</cantidad>  
+</cliente>
+</reserva>
+<reserva>
+<fechaentrada>2024-01-23</fechaentrada> <!-- La fecha de entrada de la primera reserva-->
+<fechasalida>2024-01-30</fechasalida><!-- La fecha de saluda de la primera reserva-->
+<cliente dni="72556897L">
+    <nombre>Beatriz</nombre> 
+    <apellido>Marcos</apellido>   
+    <teléfono>647721321</teléfono> 
+    <dirección>
+        <calle>Borroto</calle> 
+        <número>22</número>
+        <ciudad>Donosti</ciudad>
+    </dirección>
+    <cantidad>2</cantidad>  
+</cliente>
+</reserva>
+<reserva>
+    <fechaentrada>2024-02-03</fechaentrada> <!-- La fecha de entrada de la primera reserva-->
+    <fechasalida>2024-02-08</fechasalida><!-- La fecha de saluda de la primera reserva-->
+    <cliente dni="74589451F">
+    <nombre>Gonzalo</nombre> 
+    <apellido>Jaime</apellido>   
+    <teléfono>666122136</teléfono> 
+    <dirección>
+        <calle>31 de agosto</calle> 
+        <número>1</número>
+        <ciudad>Vitoria</ciudad>
+    </dirección>
+    <cantidad>2</cantidad>  
+</cliente>
+</reserva>
+<reserva>
+    <fechaentrada>2024-01-23</fechaentrada> <!-- La fecha de entrada de la primera reserva-->
+    <fechasalida>2024-01-30</fechasalida><!-- La fecha de saluda de la primera reserva-->
+    <cliente dni="12345678J">
+    <nombre>Sonia</nombre> 
+    <apellido>Arana</apellido>   
+    <teléfono>622566939</teléfono> 
+    <dirección>
+        <calle>San Martin</calle> 
+        <número>70</número>
+        <ciudad>Valencia</ciudad>
+    </dirección>
+    <cantidad>2</cantidad>  
+</cliente>
+</reserva>
+<reserva>
+    <fechaentrada>2024-01-23</fechaentrada> <!-- La fecha de entrada de la primera reserva-->
+    <fechasalida>2024-01-30</fechasalida><!-- La fecha de saluda de la primera reserva-->
+    <cliente dni="72589654K">
+    <nombre>Jorge</nombre> 
+    <apellido>Ballesteros</apellido>   
+    <teléfono>677894512</teléfono> 
+    <dirección>
+        <calle>Port del camp</calle> 
+        <número>2</número>
+        <ciudad>Lleida</ciudad>
+    </dirección>
+    <cantidad>1</cantidad>  
+</cliente>
+</reserva>
+<reserva>
+    <fechaentrada>2024-01-23</fechaentrada> <!-- La fecha de entrada de la primera reserva-->
+    <fechasalida>2024-01-30</fechasalida><!-- La fecha de saluda de la primera reserva-->
+    <cliente dni="65978441M">
+    <nombre>Alberto</nombre> 
+    <apellido>Pla</apellido>   
+    <teléfono>623315478</teléfono> 
+    <dirección>
+        <calle>Passeig de Gracia</calle> 
+        <número>30</número>
+        <ciudad>Barcelona</ciudad>
+    </dirección>
+    <cantidad>1</cantidad>  
+</cliente>
+</reserva>
+<reserva>
+    <fechaentrada>2024-01-23</fechaentrada> <!-- La fecha de entrada de la primera reserva-->
+    <fechasalida>2024-01-30</fechasalida><!-- La fecha de saluda de la primera reserva-->
+    <cliente dni="72589451D">
+    <nombre>Alicia</nombre> 
+    <apellido>Velez</apellido>   
+    <teléfono>664489825</teléfono> 
+    <dirección>
+        <calle>Marina</calle> 
+        <número>2</número>
+        <ciudad>Barcelona</ciudad>
+    </dirección>
+    <cantidad>2</cantidad>  
+</cliente>
+</reserva>
+<reserva>
+    <fechaentrada>2024-01-23</fechaentrada> <!-- La fecha de entrada de la primera reserva-->
+    <fechasalida>2024-01-30</fechasalida><!-- La fecha de saluda de la primera reserva-->
+    <cliente dni="72256894L">
+    <nombre>Montse</nombre> 
+    <apellido>Fernandez</apellido>   
+    <teléfono>654659825</teléfono> 
+    <dirección>
+        <calle>Avinguda Diagonal</calle> 
+        <número>511</número>
+        <ciudad>Barcelona</ciudad>
+    </dirección>
+    <cantidad>2</cantidad>  
+</cliente>
+</reserva>
+<reserva>
+    <fechaentrada>2024-01-23</fechaentrada> <!-- La fecha de entrada de la primera reserva-->
+    <fechasalida>2024-01-30</fechasalida><!-- La fecha de saluda de la primera reserva-->
+    <cliente dni="44856899L">
+    <nombre>Sara</nombre> 
+    <apellido>Ramos</apellido>   
+    <teléfono>654656785</teléfono> 
+    <dirección>
+        <calle>Port Olimpic</calle> 
+        <número>23</número>
+        <ciudad>Tarragona</ciudad>
+    </dirección>
+    <cantidad>4</cantidad>  
+</cliente>
+</reserva>
+<reserva>    
+        <fechaentrada>2024-01-23</fechaentrada> <!-- La fecha de entrada de la primera reserva-->
+        <fechasalida>2024-01-30</fechasalida><!-- La fecha de saluda de la primera reserva-->
+        <cliente dni="12345678A">
+            <nombre>Carlos</nombre> 
+            <apellido>Alvarez</apellido>   
+            <teléfono>654659825</teléfono> 
+            <dirección>
+                <calle>Los Astilleros</calle> 
+                <número>12</número>
+                <ciudad>Vigo</ciudad>
+            </dirección>
+            <cantidad>2</cantidad>  
+    </cliente> 
+</reserva>
+<reserva>    
+        <fechaentrada>2024-01-23</fechaentrada> <!-- La fecha de entrada de la primera reserva-->
+        <fechasalida>2024-01-30</fechasalida><!-- La fecha de saluda de la primera reserva-->
+        <cliente dni="17896526B">
+        <nombre>Marta</nombre> 
+        <apellido>Rico</apellido>   
+        <teléfono>666547898</teléfono> 
+        <dirección>
+            <calle>Lope de Vega</calle> 
+            <número>34</número>
+            <ciudad>Madrid</ciudad>
+        </dirección>
+        <cantidad>1</cantidad>  
+</cliente>
+</reserva>
+<reserva>
+    <fechaentrada>2024-01-23</fechaentrada> <!-- La fecha de entrada de la primera reserva-->
+    <fechasalida>2024-01-30</fechasalida><!-- La fecha de saluda de la primera reserva-->
+    <cliente dni="72556897L">
+    <nombre>Beatriz</nombre> 
+    <apellido>Marcos</apellido>   
+    <teléfono>647721321</teléfono> 
+    <dirección>
+        <calle>Borroto</calle> 
+        <número>22</número>
+        <ciudad>Donosti</ciudad>
+    </dirección>
+    <cantidad>2</cantidad>  
+</cliente>
+</reserva>
+<reserva>
+    <fechaentrada>2024-01-23</fechaentrada> <!-- La fecha de entrada de la primera reserva-->
+    <fechasalida>2024-01-30</fechasalida><!-- La fecha de saluda de la primera reserva-->
+    <cliente dni="72589451F">
+    <nombre>Gonzalo</nombre> 
+    <apellido>Jaime</apellido>   
+    <teléfono>666122136</teléfono> 
+    <dirección>
+        <calle>31 de agosto</calle> 
+        <número>1</número>
+        <ciudad>Vitoria</ciudad>
+    </dirección>
+    <cantidad>2</cantidad>  
+</cliente>
+</reserva>
+<reserva>
+    <fechaentrada>2024-01-23</fechaentrada> <!-- La fecha de entrada de la primera reserva-->
+    <fechasalida>2024-01-30</fechasalida><!-- La fecha de saluda de la primera reserva-->
+    <cliente dni="12345678J">
+    <nombre>Sonia</nombre> 
+    <apellido>Arana</apellido>   
+    <teléfono>622566939</teléfono> 
+    <dirección>
+        <calle>San Martin</calle> 
+        <número>70</número>
+        <ciudad>Valencia</ciudad>
+    </dirección>
+    <cantidad>2</cantidad>  
+</cliente>
+</reserva>
+<reserva>
+    <fechaentrada>2024-01-23</fechaentrada> <!-- La fecha de entrada de la primera reserva-->
+    <fechasalida>2024-01-30</fechasalida><!-- La fecha de saluda de la primera reserva-->
+    <cliente dni="72589654K">
+    <nombre>Jorge</nombre> 
+    <apellido>Ballesteros</apellido>   
+    <teléfono>677894512</teléfono> 
+    <dirección>
+        <calle>Port del camp</calle> 
+        <número>2</número>
+        <ciudad>Lleida</ciudad>
+    </dirección>
+    <cantidad>1</cantidad>  
+</cliente>
+</reserva>
+<reserva>
+    <fechaentrada>2024-01-23</fechaentrada> <!-- La fecha de entrada de la primera reserva-->
+    <fechasalida>2024-01-30</fechasalida><!-- La fecha de saluda de la primera reserva-->
+    <cliente dni="65978441M">
+    <nombre>Alberto</nombre> 
+    <apellido>Pla</apellido>   
+    <teléfono>623315478</teléfono> 
+    <dirección>
+        <calle>Passeig de Gracia</calle> 
+        <número>30</número>
+        <ciudad>Barcelona</ciudad>
+    </dirección>
+    <cantidad>1</cantidad>  
+</cliente>
+
+</reserva>
+</registro>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" version="0.1" xml:lang="es">
+<xs:element name ="registro">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name ="reserva" maxOccurs="unbounded"> <!-- Abrimos el elemento reserva que contiene dos elementos dentro, fecha y cliente-->
+             <xs:complexType>
+                 <xs:sequence><!-- Es una secuencia porque deben aparecer los elementos una vez en el orden específico-->
+                   <xs:element name = "fechaentrada" type ="xs:date" maxOccurs="unbounded"/><!-- Abrimos y cerramos el elemento fecha de entrada--> 
+                   <xs:element name = "fechasalida" type ="xs:date" maxOccurs="unbounded"/><!-- Abrimos y cerramos el elemento fecha de salida-->                       
+                    <xs:element name = "cliente" maxOccurs="unbounded">   <!-- Abrimos el elemento cliente que contiene más elementos dentro-->  
+                        <xs:complexType>
+                         <xs:sequence>
+                             <xs:element name="nombre"> <!--Abrimos el elemento nombre-->
+                             <xs:simpleType >
+                                 <xs:restriction base ="xs:string"> <!-- Se trata de un elemento string -->
+                                     <xs:pattern value = "[A-Z][a-z]*"/>
+                                     <xs:maxLength value = "20"/><!-- Longitud máxima de 20 letras -->                 
+                                 </xs:restriction>
+                             </xs:simpleType>
+                    </xs:element>
+                        <xs:element name="apellido"> <!-- El elemento apellido que puede contener hasta 30 letras-->
+                        <xs:simpleType>
+                            <xs:restriction base ="xs:string"> 
+                                <xs:pattern value = "[A-Z][a-z]*"/>
+                                <xs:maxLength value = "30"/>                      
+                            </xs:restriction>
+                        </xs:simpleType> 
+                    </xs:element>
+                        <xs:element name= "teléfono"><!-- El elemento teléfono debe contener 9 dígitos-->
+                            <xs:simpleType>
+                                <xs:restriction base="xs:integer">
+                                    <xs:totalDigits value ="9"/>                                    
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:element>
+                        <xs:element name ="dirección"> <!-- Dirección contiene varios elementos dentro-->
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name ="calle" type ="xs:string"/>                                     
+                                     <xs:element name="número">                
+                                         <xs:simpleType>
+                                            <xs:restriction base ="xs:integer"><!--Debe ir del número 0 al 700-->
+                                                <xs:minExclusive value="0"/>
+                                                <xs:maxExclusive value="700"/>
+                                            </xs:restriction>                        
+                                        </xs:simpleType>
+                                     </xs:element>                
+                                    <xs:element name="ciudad" type ="xs:string"/>                                    
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+                        <xs:element name ="cantidad"><!-- Elemento que se refiere al número de personas que contiene la reserva-->
+                            <xs:simpleType>
+                                <xs:restriction base ="xs:integer">
+                                    <xs:minInclusive value ="1"/>
+                                    <xs:maxInclusive value ="4"/><!-- Máximo 4 personas por cliente que hace una reserva-->                                
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:element>
+                 </xs:sequence>
+                    <xs:attribute name="dni" type ="dniType"/><!-- Atributo de cliente, DNI-->
+            </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+                <xs:simpleType name="dniType"><!-- Definimos el atributo DNI fuera del resto de elementos-->
+                    <xs:restriction base="xs:string">
+                        <xs:pattern value ="[0-9]{8}[A-Z]"/>
+                     </xs:restriction>
+                </xs:simpleType>         
+
+</xs:schema>
