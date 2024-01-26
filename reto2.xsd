@@ -50,18 +50,18 @@
                                 </xs:sequence>
                             </xs:complexType>
                         </xs:element>
-                        <xs:element name ="cantidad"><!-- Elemento que se refiere al número de personas que contiene la reserva-->
-                            <xs:simpleType>
-                                <xs:restriction base ="xs:integer">
-                                    <xs:minInclusive value ="1"/>
-                                    <xs:maxInclusive value ="4"/><!-- Máximo 4 personas por cliente que hace una reserva-->                                
-                                </xs:restriction>
-                            </xs:simpleType>
-                        </xs:element>
                  </xs:sequence>
                     <xs:attribute name="dni" type ="dniType"/><!-- Atributo de cliente, DNI-->
             </xs:complexType>
             </xs:element>
+            <xs:element name ="cantidad"><!-- Elemento que se refiere al número de personas que contiene la reserva-->
+            <xs:simpleType>
+                <xs:restriction base ="xs:integer">
+                    <xs:minInclusive value ="1"/>
+                    <xs:maxInclusive value ="4"/><!-- Máximo 4 personas por cliente que hace una reserva-->                                
+                </xs:restriction>
+            </xs:simpleType>
+           </xs:element>
         </xs:sequence>
     </xs:complexType>
 </xs:element>

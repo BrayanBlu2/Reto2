@@ -27,10 +27,6 @@ header {
   z-index: 999999;
 }
 
-.header_boton:hover {
-  background-color: rgb(255,255,255, 0.1);
-  backdrop-filter: blur(4px);
-}
 
 
 #header_izquierda {
@@ -147,3 +143,4 @@ h2 {
   color: white;
   width: 170px;
 }
+

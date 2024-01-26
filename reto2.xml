@@ -12,8 +12,8 @@
                 <número>12</número>
                 <ciudad>Vigo</ciudad>
             </dirección>
-            <cantidad>2</cantidad>  
     </cliente> 
+    <cantidad>2</cantidad>  
 </reserva>
 <reserva> 
     <fechaentrada>2024-01-23</fechaentrada> <!-- La fecha de entrada de la primera reserva-->
@@ -26,9 +26,9 @@
             <calle>Lope de Vega</calle> 
             <número>34</número>
             <ciudad>Madrid</ciudad>
-        </dirección>
-        <cantidad>1</cantidad>  
+        </dirección> 
 </cliente>
+    <cantidad>1</cantidad> 
 </reserva>
 <reserva>
 <fechaentrada>2024-01-23</fechaentrada> <!-- La fecha de entrada de la primera reserva-->
@@ -42,8 +42,8 @@
         <número>22</número>
         <ciudad>Donosti</ciudad>
     </dirección>
-    <cantidad>2</cantidad>  
 </cliente>
+    <cantidad>2</cantidad>  
 </reserva>
 <reserva>
     <fechaentrada>2024-02-03</fechaentrada> <!-- La fecha de entrada de la primera reserva-->
@@ -56,9 +56,9 @@
         <calle>31 de agosto</calle> 
         <número>1</número>
         <ciudad>Vitoria</ciudad>
-    </dirección>
-    <cantidad>2</cantidad>  
+    </dirección>  
 </cliente>
+    <cantidad>2</cantidad>
 </reserva>
 <reserva>
     <fechaentrada>2024-01-23</fechaentrada> <!-- La fecha de entrada de la primera reserva-->
@@ -71,9 +71,9 @@
         <calle>San Martin</calle> 
         <número>70</número>
         <ciudad>Valencia</ciudad>
-    </dirección>
-    <cantidad>2</cantidad>  
+    </dirección> 
 </cliente>
+    <cantidad>2</cantidad> 
 </reserva>
 <reserva>
     <fechaentrada>2024-01-23</fechaentrada> <!-- La fecha de entrada de la primera reserva-->
@@ -87,8 +87,8 @@
         <número>2</número>
         <ciudad>Lleida</ciudad>
     </dirección>
-    <cantidad>1</cantidad>  
 </cliente>
+    <cantidad>1</cantidad>  
 </reserva>
 <reserva>
     <fechaentrada>2024-01-23</fechaentrada> <!-- La fecha de entrada de la primera reserva-->
@@ -101,9 +101,9 @@
         <calle>Passeig de Gracia</calle> 
         <número>30</número>
         <ciudad>Barcelona</ciudad>
-    </dirección>
-    <cantidad>1</cantidad>  
+    </dirección> 
 </cliente>
+    <cantidad>1</cantidad> 
 </reserva>
 <reserva>
     <fechaentrada>2024-01-23</fechaentrada> <!-- La fecha de entrada de la primera reserva-->
@@ -116,9 +116,9 @@
         <calle>Marina</calle> 
         <número>2</número>
         <ciudad>Barcelona</ciudad>
-    </dirección>
-    <cantidad>2</cantidad>  
+    </dirección> 
 </cliente>
+    <cantidad>2</cantidad> 
 </reserva>
 <reserva>
     <fechaentrada>2024-01-23</fechaentrada> <!-- La fecha de entrada de la primera reserva-->
@@ -132,8 +132,8 @@
         <número>511</número>
         <ciudad>Barcelona</ciudad>
     </dirección>
-    <cantidad>2</cantidad>  
 </cliente>
+    <cantidad>2</cantidad>  
 </reserva>
 <reserva>
     <fechaentrada>2024-01-23</fechaentrada> <!-- La fecha de entrada de la primera reserva-->
@@ -146,9 +146,9 @@
         <calle>Port Olimpic</calle> 
         <número>23</número>
         <ciudad>Tarragona</ciudad>
-    </dirección>
-    <cantidad>4</cantidad>  
+    </dirección>  
 </cliente>
+    <cantidad>4</cantidad>
 </reserva>
 <reserva>    
         <fechaentrada>2024-01-23</fechaentrada> <!-- La fecha de entrada de la primera reserva-->
@@ -161,9 +161,9 @@
                 <calle>Los Astilleros</calle> 
                 <número>12</número>
                 <ciudad>Vigo</ciudad>
-            </dirección>
-            <cantidad>2</cantidad>  
+            </dirección>  
     </cliente> 
+    <cantidad>2</cantidad>
 </reserva>
 <reserva>    
         <fechaentrada>2024-01-23</fechaentrada> <!-- La fecha de entrada de la primera reserva-->
@@ -176,9 +176,9 @@
             <calle>Lope de Vega</calle> 
             <número>34</número>
             <ciudad>Madrid</ciudad>
-        </dirección>
-        <cantidad>1</cantidad>  
+        </dirección> 
 </cliente>
+    <cantidad>1</cantidad> 
 </reserva>
 <reserva>
     <fechaentrada>2024-01-23</fechaentrada> <!-- La fecha de entrada de la primera reserva-->
@@ -192,8 +192,8 @@
         <número>22</número>
         <ciudad>Donosti</ciudad>
     </dirección>
-    <cantidad>2</cantidad>  
 </cliente>
+    <cantidad>2</cantidad>  
 </reserva>
 <reserva>
     <fechaentrada>2024-01-23</fechaentrada> <!-- La fecha de entrada de la primera reserva-->
@@ -206,9 +206,9 @@
         <calle>31 de agosto</calle> 
         <número>1</número>
         <ciudad>Vitoria</ciudad>
-    </dirección>
-    <cantidad>2</cantidad>  
+    </dirección>  
 </cliente>
+    <cantidad>2</cantidad>  
 </reserva>
 <reserva>
     <fechaentrada>2024-01-23</fechaentrada> <!-- La fecha de entrada de la primera reserva-->
@@ -221,9 +221,9 @@
         <calle>San Martin</calle> 
         <número>70</número>
         <ciudad>Valencia</ciudad>
-    </dirección>
-    <cantidad>2</cantidad>  
+    </dirección>  
 </cliente>
+    <cantidad>2</cantidad>
 </reserva>
 <reserva>
     <fechaentrada>2024-01-23</fechaentrada> <!-- La fecha de entrada de la primera reserva-->
@@ -236,9 +236,9 @@
         <calle>Port del camp</calle> 
         <número>2</número>
         <ciudad>Lleida</ciudad>
-    </dirección>
-    <cantidad>1</cantidad>  
+    </dirección> 
 </cliente>
+    <cantidad>1</cantidad> 
 </reserva>
 <reserva>
     <fechaentrada>2024-01-23</fechaentrada> <!-- La fecha de entrada de la primera reserva-->
@@ -251,9 +251,8 @@
         <calle>Passeig de Gracia</calle> 
         <número>30</número>
         <ciudad>Barcelona</ciudad>
-    </dirección>
-    <cantidad>1</cantidad>  
+    </dirección> 
 </cliente>
-
+    <cantidad>1</cantidad> 
 </reserva>
 </registro>
