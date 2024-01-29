@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="stylesheet" type="text/css" href="GiPiRe.css">
   <meta charset="UTF-8">
   <title>ETOO</title>
 </head>
@@ -21,8 +21,29 @@
 
   </header>    
 
+  <div class="imagen-container">
+    <button onclick="cambiarImagen('anterior')" class="boton-izquierdo">&#10094; Anterior</button>
+    <img src="/fotoshotel/logoHotel.png" alt="Imagen 1" id="imagenActual">
+    <button onclick="cambiarImagen('siguiente')" class="boton-derecho">Siguiente &#10095;</button>
+  </div> 
 
-
+  <div id="texto">
+      <h2>Piscina infinita con vistas a la Costa</h2> 
+    <br>
+    <h3>Características</h3>
+    <br>
+    <ul>
+      <li>Piscinas Desbordantes, el agua está al mismo nivel que el suelo de la terraza. Así se genera un bonito efecto lago.</li>
+      <li>El agua está al mismo nivel que el borde. Rebosa y se filtra por todo el perímetro de forma constante.</li>
+      <li>El agua se renueva de forma completa y constante en un período corto de tiempo para mantenerse cristalina y libre de impurezas siempre.</li>
+      <li>La lámina de agua se ve al 100 % desde todos los puntos de vista. Así se aumenta el control visual del espacio y la seguridad.  </li>
+      <li>Las piscinas desbordantes se disfrutan más porque son muy cómodas y limpias. Y el gres porcelánico es suave, súper higiénico y agradable al tacto.  </li>
+      <li>Al rebosar el agua de forma continua y suave, se amortigua el ruido de choque contra las paredes.  </li>
+      <br>
+    </ul>
+  </div>
+     
+  <script src="pasarImagenes.js"></script>
   
          </body>
 </html>
