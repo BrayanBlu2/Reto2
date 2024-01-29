@@ -3,6 +3,7 @@ USE Reto21;
 DROP TABLE IF EXISTS Clientes;
 CREATE TABLE Clientes(
 idCliente  INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+
 Nombre VARCHAR (50),
 Apellido VARCHAR (100),
 Teléfono INT,

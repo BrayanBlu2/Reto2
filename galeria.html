@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html>
- <link rel="stylesheet" type="text/css" href="">
+ <link rel="stylesheet" type="text/css" href="index.css">
  <meta charset="UTF-8">
 <head>
  <title>Mi Hotel</title>
   </head>
         <body>
             <header>
-                  <div id="header_izquierda"><h1>Hotel</h1></div>
-                  <div id="header_derecha">
-                    <a><img src="/fotoshotel/logoHotel.png" alt="Logo del Hotel"></a>
+                  <div id="header_izquierda"><img src="/fotoshotel/logoHotel.png" alt="Logo del Hotel"></div>
+                  <div id="header_derecha">                    
                       <a class="header_boton">Información General</a>
                       <a class="header_boton" href="">Galería</a>
                       <a class="header_boton" href= "">Restaurante</a>
@@ -18,7 +17,45 @@
                       <a class="header_boton" href= ""> Servicios</a>
                       <a class="header_boton" href= ""> Contactos</a>
                   </div>
-              </header>     
-
-         </body>
+              </header>  
+ <div class ="requisito"><h3>RELLENA LOS DOS FORMULARIOS PARA HACER TÚ RESERVA</h3></div>
+  <div class="formularioreserva"> 
+    <h3>Reserva</h3>
+        <h4>Haz tú reserva de habitación a través de este formulario</h4>                  
+        <form action ="" method="get"> 
+          <div class="reserva"> 
+            <ul>              
+                <li>
+                  <LABEL>Fecha:</LABEL> <INPUT TYPE ="date" ID="Fecha" NAME="Fecha"> 
+                  <LABEL>Número de personas:</LABEL> <INPUT TYPE ="text" ID="NúmeroPersonas" NAME="Númerodepersonas"> 
+                </li>
+              <p>
+                <INPUT TYPE ="submit"> 
+              </p>
+            </ul>
+          </div>  
+        </form>                
+    </div>     
+  
+  <div class="formulariocliente"> 
+    <h3>Nuevo cliente</h3>
+    <h4>Date de alta en nuestro hotel a través de este formulario</h4>  
+  
+          <form action ="" method="get"> 
+              <div class="alta">   
+                <ul>         
+                  <li>    
+                      <LABEL>Nombre:</LABEL> <INPUT TYPE ="text" ID="Nombre" NAME="Nombre"> 
+                      <LABEL>Apellido:</LABEL> <INPUT TYPE ="text" ID="Apellido" NAME="Apellido"> 
+                      <LABEL>Teléfono:</LABEL> <INPUT TYPE ="text" ID="Teléfono" NAME="Teléfono"> 
+                      <LABEL>Dirección:</LABEL> <INPUT TYPE ="text" ID="Dirección" NAME="Dirección">                         
+                  <p>
+                    <INPUT TYPE ="submit"> 
+                  </p>  
+          </li> 
+        </ul>  
+      </div>            
+  </form> 
+</div>
+</body>
 </html>
