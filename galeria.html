@@ -26,8 +26,8 @@
           <div class="reserva"> 
             <ul>              
                 <li>
-                  <LABEL>Fecha:</LABEL> <INPUT TYPE ="date" ID="Fecha" NAME="Fecha"> 
-                  <LABEL>Número de personas:</LABEL> <INPUT TYPE ="text" ID="NúmeroPersonas" NAME="Númerodepersonas"> 
+                  <LABEL>Fecha:</LABEL> <INPUT TYPE ="date" ID="Fecha" NAME="Fecha" required> 
+                  <LABEL>Número de personas:</LABEL> <INPUT TYPE ="text" ID="NúmeroPersonas" NAME="Númerodepersonas" required> 
                 </li>
               <p>
                 <INPUT TYPE ="submit"> 
@@ -41,14 +41,14 @@
     <h3>Nuevo cliente</h3>
     <h4>Date de alta en nuestro hotel a través de este formulario</h4>  
   
-          <form action ="" method="get"> 
+          <form action ="" method="get" return ="verificarFormularioReserva()"> 
               <div class="alta">   
                 <ul>         
                   <li>    
-                      <LABEL>Nombre:</LABEL> <INPUT TYPE ="text" ID="Nombre" NAME="Nombre"> 
-                      <LABEL>Apellido:</LABEL> <INPUT TYPE ="text" ID="Apellido" NAME="Apellido"> 
-                      <LABEL>Teléfono:</LABEL> <INPUT TYPE ="text" ID="Teléfono" NAME="Teléfono"> 
-                      <LABEL>Dirección:</LABEL> <INPUT TYPE ="text" ID="Dirección" NAME="Dirección">                         
+                      <LABEL>Nombre:</LABEL> <INPUT TYPE ="text" ID="Nombre" NAME="Nombre" required> 
+                      <LABEL>Apellido:</LABEL> <INPUT TYPE ="text" ID="Apellido" NAME="Apellido" required> 
+                      <LABEL>Teléfono:</LABEL> <INPUT TYPE ="text" ID="Teléfono" NAME="Teléfono" required> 
+                      <LABEL>Dirección:</LABEL> <INPUT TYPE ="text" ID="Dirección" NAME="Dirección" required>                         
                   <p>
                     <INPUT TYPE ="submit"> 
                   </p>  
