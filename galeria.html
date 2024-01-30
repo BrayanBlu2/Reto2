@@ -22,12 +22,14 @@
   <div class="formularioreserva"> 
     <h3>Reserva</h3>
         <h4>Haz tú reserva de habitación a través de este formulario</h4>                  
-        <form action ="" method="get"> 
+        <form action ="http://localhost/enlaceReserva.php" method="get"> 
+          <input type ="hidden" id="Reservas" name="db" value="reto2final">
+          <input type ="hidden" id="Reservas" name="table" value="Reservas">
           <div class="reserva"> 
             <ul>              
                 <li>
                   <LABEL>Fecha:</LABEL> <INPUT TYPE ="date" ID="Fecha" NAME="Fecha" required> 
-                  <LABEL>Número de personas:</LABEL> <INPUT TYPE ="text" ID="NúmeroPersonas" NAME="Númerodepersonas" required> 
+                  <LABEL>Número de personas:</LABEL> <INPUT TYPE ="text" ID="NumeroPersonas" NAME="NumeroPersonas" required> 
                 </li>
               <p>
                 <INPUT TYPE ="submit"> 
@@ -41,7 +43,9 @@
     <h3>Nuevo cliente</h3>
     <h4>Date de alta en nuestro hotel a través de este formulario</h4>  
   
-          <form action ="" method="get"> 
+          <form action ="http://localhost/reto2final.php" method="get"> 
+            <input type ="hidden" id="Clientes" name="db" value="reto2final">
+            <input type ="hidden" id="Clientes" name="table" value="Clientes">
               <div class="alta">   
                 <ul>         
                   <li>    
