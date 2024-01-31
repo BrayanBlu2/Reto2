@@ -224,3 +224,71 @@ input[type="submit"]:hover {
 .formulariocliente{
   margin: 100px auto;
 }
+
+/*Aquí empieza lo de Servicios*/
+
+#contenido_servicios {
+  height: 600px;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+}
+
+#servicio_derecha {
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  width: 50%;
+  margin-right: 3%;
+  
+}
+
+#servicio_izquierda {
+  padding: 20px;
+  width: 50%;
+
+}
+
+#servicio_derecha img {
+  width: 100%;
+  height: 100%;
+
+}
+
+#contenido_servicios li{
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 20px 20px 150px rgb(99, 97, 97);
+}
+
+#mas_informacion {
+  height: 600px;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+}
+
+#mas_informacion li{
+padding: 10px;
+color: brown;
+}
+
+#informacion_derecha{
+width: 50%;
+padding: 20px;
+
+}
+#informacion_izquierda{
+padding: 20px;
+width: 50%;
+
+}
+
+#informacion_derecha h1{
+ background-image: url(/fotoshotel/agua.gif);
+ background-size: cover;
+ background-position: center;
+ color: transparent;
+ background-clip: text;
+ -webkit-background-clip: text;
+ font-size: 200px;
+ margin-left: 9%;
+}
