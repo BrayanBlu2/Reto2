@@ -51,7 +51,8 @@
                             </xs:complexType>
                         </xs:element>
                  </xs:sequence>
-                    <xs:attribute name="dni" type ="dniType"/><!-- Atributo de cliente, DNI-->
+                    <xs:attribute name="dni" type ="dniType"/><!-- Atributo de cliente,
+                         DNI-->
             </xs:complexType>
             </xs:element>
             <xs:element name ="cantidad"><!-- Elemento que se refiere al número de personas que contiene la reserva-->

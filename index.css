@@ -146,8 +146,8 @@ h2 {
 
 /* Aquí empieza el apartado de "Galería"*/
 /* Estilos para el contenedor principal */
-.formularioreserva,
-.formulariocliente {
+.formularioreserva
+ {
   max-width: 600px;
   margin: 60px auto; 
   padding: 20px;
@@ -157,15 +157,14 @@ h2 {
 }
 
 /* Estilos para los títulos de sección */
-.formularioreserva h3,
-.formulariocliente h3 {
+.formularioreserva h3 {
   color: #333;
   padding-bottom: 10px;
 }
 
 /* Estilos para los subtítulos de sección */
-.formularioreserva h4,
-.formulariocliente h4 {
+.formularioreserva h4
+{
   color: #555;
 }
 
@@ -217,13 +216,11 @@ input[type="submit"]:hover {
 }
 
 .requisito{
-  padding-left: 380px;
+  padding-left: 530px;
   padding-top: 50px;
 }
 
-.formulariocliente{
-  margin: 100px auto;
-}
+
 
 /*Aquí empieza lo de Servicios*/
 

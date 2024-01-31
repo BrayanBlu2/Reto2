@@ -17,11 +17,16 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
     // Obtener valores del formulario
     $fecha = $_GET["Fecha"];
     $numeropersonas = $_GET["NumeroPersonas"];
+    $nombre = $_GET["Nombre"];
+    $apellido = $_GET["Apellido"];
+    $telefono = $_GET["Telefono"];
+    $direccion = $_GET["Direccion"];
+
    
 
     // Preparar la consulta SQL para la inserción
-    $sql = "INSERT INTO reservas ( Fecha,NumeroPersonas)
-            VALUES ( '$fecha', '$numeropersonas')";
+    $sql = "INSERT INTO reservas ( Fecha,NumeroPersonas,Nombre,Apellido,Telefono,Direccion)
+            VALUES ( '$fecha', '$numeropersonas','$nombre','$apellido','$telefono','$direccion')";
 
     // Ejecutar la consulta
     if ($conn->query($sql) === TRUE) {
