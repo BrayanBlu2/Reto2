@@ -127,6 +127,7 @@
  
 }
 
+<<<<<<< HEAD
 /*Características únicas del restaurante*/
 
 #texto_restaurante{
@@ -155,6 +156,47 @@
 padding: 70px;
 list-style: none;
 }
+=======
+/* CSS Contactos */
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.contact-info {
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #333;
+}
+
+p {
+  margin: 10px 0;
+}
+
+strong {
+  color: #007BFF;
+}
+
+>>>>>>> ba03611a7b8acd07701a53929af683b2cff578a4
 
 
 
