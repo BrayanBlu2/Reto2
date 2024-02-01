@@ -20,13 +20,15 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
     $nombre = $_GET["Nombre"];
     $apellido = $_GET["Apellido"];
     $telefono = $_GET["Telefono"];
-    $direccion = $_GET["Direccion"];
+    $calle = $_GET["Calle"];
+    $numeroportal = $_GET["NumeroPortal"];
+    $ciudad = $_GET["Ciudad"];
 
    
 
     // Preparar la consulta SQL para la inserción
-    $sql = "INSERT INTO reservas ( Fecha,NumeroPersonas,Nombre,Apellido,Telefono,Direccion)
-            VALUES ( '$fecha', '$numeropersonas','$nombre','$apellido','$telefono','$direccion')";
+    $sql = "INSERT INTO reservas ( Fecha,NumeroPersonas,Nombre,Apellido,Telefono,Calle,NumeroPortal,Ciudad)
+            VALUES ( '$fecha', '$numeropersonas','$nombre','$apellido','$telefono','$calle','$numeroportal','$ciudad')";
 
     // Ejecutar la consulta
     if ($conn->query($sql) === TRUE) {
