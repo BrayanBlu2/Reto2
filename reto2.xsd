@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" version="0.1" xml:lang="es">
-<xs:element name ="registro">
+<xs:element name ="Registro">
     <xs:complexType>
         <xs:sequence>
-            <xs:element name ="reserva" maxOccurs="unbounded"> <!-- Abrimos el elemento reserva que contiene dos elementos dentro, fecha y cliente-->
+            <xs:element name ="Reserva" maxOccurs="unbounded"> <!-- Abrimos el elemento reserva que contiene dos elementos dentro, fecha y cliente-->
              <xs:complexType>
                  <xs:sequence><!-- Es una secuencia porque deben aparecer los elementos una vez en el orden específico-->
-                   <xs:element name = "fecha" type ="xs:date" maxOccurs="unbounded"/><!-- Abrimos y cerramos el elemento fecha -->                                
-                   <xs:element name ="cantidad"><!-- Elemento que se refiere al número de personas que contiene la reserva-->
+                   <xs:element name = "Fecha" type ="xs:date" maxOccurs="unbounded"/><!-- Abrimos y cerramos el elemento fecha -->                                
+                   <xs:element name ="Cantidad"><!-- Elemento que se refiere al número de personas que contiene la reserva-->
                    <xs:simpleType>
                        <xs:restriction base ="xs:integer">
                            <xs:minInclusive value ="1"/>
@@ -15,7 +15,7 @@
                        </xs:restriction>
                    </xs:simpleType>
                    </xs:element>
-                        <xs:element name="nombre"> <!--Abrimos el elemento nombre-->
+                        <xs:element name="Nombre"> <!--Abrimos el elemento nombre-->
                              <xs:simpleType >
                                  <xs:restriction base ="xs:string"> <!-- Se trata de un elemento string -->
                                      <xs:pattern value = "[A-Z][a-z]*"/>
@@ -23,7 +23,7 @@
                                  </xs:restriction>
                              </xs:simpleType>
                     </xs:element>
-                        <xs:element name="apellido"> <!-- El elemento apellido que puede contener hasta 30 letras-->
+                        <xs:element name="Apellido"> <!-- El elemento apellido que puede contener hasta 30 letras-->
                         <xs:simpleType>
                             <xs:restriction base ="xs:string"> 
                                 <xs:pattern value = "[A-Z][a-z]*"/>
@@ -31,18 +31,15 @@
                             </xs:restriction>
                         </xs:simpleType> 
                     </xs:element>
-                        <xs:element name= "teléfono"><!-- El elemento teléfono debe contener 9 dígitos-->
+                        <xs:element name= "Telefono"><!-- El elemento teléfono debe contener 9 dígitos-->
                             <xs:simpleType>
                                 <xs:restriction base="xs:integer">
                                     <xs:totalDigits value ="9"/>                                    
                                 </xs:restriction>
                             </xs:simpleType>
-                        </xs:element>
-                        <xs:element name ="direccion"> <!-- Dirección contiene varios elementos dentro-->
-                            <xs:complexType>
-                                <xs:sequence>
-                                    <xs:element name ="calle" type ="xs:string"/>                                     
-                                     <xs:element name="numeroPortal">                
+                        </xs:element>                       
+                                    <xs:element name ="Calle" type ="xs:string"/>                                     
+                                     <xs:element name="NumeroPortal">                
                                          <xs:simpleType>
                                             <xs:restriction base ="xs:integer"><!--Debe ir del número 0 al 700-->
                                                 <xs:minExclusive value="0"/>
@@ -50,10 +47,8 @@
                                             </xs:restriction>                        
                                         </xs:simpleType>
                                      </xs:element>                
-                                    <xs:element name="ciudad" type ="xs:string"/>                                    
-                                </xs:sequence>
-                            </xs:complexType>
-                       </xs:element>    
+                                    <xs:element name="Ciudad" type ="xs:string"/>                                    
+                            
                 </xs:sequence>
         <xs:attribute name="idReserva" type ="idType"/><!-- Atributo de Reserva -->
     </xs:complexType>
