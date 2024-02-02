@@ -149,12 +149,31 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-
+  width:94%;
+  margin-left: 30px;
+  background-image: url(/fotoshotel/fondoDeCarta.jpg);
 }
 
 #cartas ul{
-padding: 70px;
-list-style: none;
+  padding: 5px;
+  list-style: none;
+}
+
+#cartas_izquierda {
+  display: flex;
+  width: 40%;
+  margin-left: 7%;
+  margin-top: 11%;
+ 
+  
+}
+
+#cartas_derecha {
+  margin-top: 11%;
+  width: 40%;
+  display: flex;
+  margin-left: 8%;
+
 }
 
 /* CSS Contactos */
@@ -188,9 +207,6 @@ h1 {
   color: #333;
 }
 
-p {
-  margin: 10px 0;
-}
 
 strong {
   color: #007BFF;

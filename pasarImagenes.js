@@ -13,7 +13,7 @@ function cambiarImagenPiscina(direccion) {
 }
 
 
-const imagenes2 = ["/fotoshotel/hotel.jpg", "/fotoshotel/piscina.jpg", "/fotoshotel/habitación2.jpg"];
+const imagenes2 = ["/fotoshotel/giman.jpg", "/fotoshotel/gimnasio1.jpg", "/fotoshotel/gimnasio6.jpg", "/fotoshotel/gimnasio3.jpg", "/fotoshotel/gimnasio4.jpg", "/fotoshotel/gimnasio5.jpg"];
 let indiceActual2 = 0;
 
 function cambiarImagenGimnasio(direccion) {
