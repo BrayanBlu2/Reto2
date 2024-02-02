@@ -127,7 +127,7 @@
  
 }
 
-<<<<<<< HEAD
+
 /*Características únicas del restaurante*/
 
 #texto_restaurante{
@@ -156,7 +156,7 @@
 padding: 70px;
 list-style: none;
 }
-=======
+
 /* CSS Contactos */
 
 footer {
@@ -169,12 +169,12 @@ footer {
   width: 100%;
 }
 
-body {
+/*body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   background-color: #f4f4f4;
-}
+}*/
 
 .contact-info {
   max-width: 600px;
