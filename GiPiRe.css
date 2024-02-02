@@ -143,12 +143,9 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-<<<<<<< HEAD
-=======
   width:94%;
   margin-left: 30px;
   background-image: url(/fotoshotel/fondoDeCarta.jpg);
->>>>>>> 4295e1555fe0c84d510a082da029842a238e49b6
 }
 
 #cartas ul{
@@ -190,21 +187,15 @@
   display: inline;
   padding: 25px;
 }
-header {
-  text-align: center;
-  background-color: #333;
-  color: #fff;
-  padding: 10px;
-}
 
 h1 {
   font-size: 24px;
 }
+
 h2 {
   font-size: 24px;
   grid-column: 1/4;
   grid-row: 1/2;
-  text-align: center;
 }
 
 .container {
@@ -243,15 +234,12 @@ text-align: center;
   grid-row: 2/3;
 }
 
-<<<<<<< HEAD
 .c3{
   text-align: center;
  
   grid-column: 3/4;
   grid-row: 2/2;
 }
-=======
->>>>>>> 4295e1555fe0c84d510a082da029842a238e49b6
 
 .mapa{
   text-align: center;
