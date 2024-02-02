@@ -1,0 +1,99 @@
+<style>
+                    .menu {
+                    background-color: "";
+                    opacity: 0.5;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    grid-row: 2/2;
+                    grid-column: 1/4;
+                }
+                
+                .menu li, ul {
+                    text-decoration: none;
+                    display: inline;
+                    padding: 25px;
+                }
+                body {
+                    font-family: Arial, sans-serif;
+                    margin: 20px;
+                }
+                
+                header {
+                    text-align: center;
+                    background-color: #333;
+                    color: #fff;
+                    padding: 10px;
+                }
+                
+                h1 {
+                    font-size: 24px;
+                }
+                
+                .container {
+                    text-align: center;
+                    max-width: 800px;
+                    margin: 0 auto;
+                    padding: 20px;
+                }
+                
+                main {
+                    display: grid;
+                    grid-template-columns: repeat(4, 1fr);
+                    gap: 10px;
+                }
+                
+                .team-member {
+                    text-align: center;
+                    max-width: 200px;
+                }
+                
+                .team-member img {
+                    max-width: 100%;
+                    height: 200px;
+                    width: 250px;
+                }
+                
+                .team-member h3 {
+                    margin: 10px 0;
+                }
+                
+                .team-member p {
+                    font-style: italic;
+                }
+                .privacy{
+                    background-color: white;
+                }
+                .boton1 {
+                  height: 50px;
+                  width: 200px;
+                  border: none;
+                  border-radius: 25px;
+                  background-color: #539fa2;
+                  color: #fff;
+                  font-size: 16px;
+                  cursor: pointer;
+                  transition: background-color 0.3s, transform 0.2s;
+                }
+                
+                .boton1:hover {
+                  background-color: #abccb1;
+                  transform: scale(1.05);
+                }
+                .boton2 {
+                  height: 50px;
+                  width: 200px;
+                  border: none;
+                  border-radius: 25px;
+                  background-color: #539fa2;
+                  color: #fff;
+                  font-size: 16px;
+                  cursor: pointer;
+                  transition: background-color 0.3s, transform 0.2s;
+                }
+                
+                .boton2:hover {
+                  background-color: #abccb1; 
+                  transform: scale(1.05);
+                }
+                  </style>

@@ -191,10 +191,15 @@
 h1 {
   font-size: 24px;
 }
+
 h2 {
   font-size: 24px;
   grid-column: 1/4;
+<<<<<<< HEAD
   grid-row: 1/2; 
+=======
+  grid-row: 1/2;
+>>>>>>> 5d2510ae858be26bc126e348f054f6e293b5b148
 }
 
 .container {
@@ -233,6 +238,15 @@ text-align: center;
   grid-row: 2/3;
 }
 
+<<<<<<< HEAD
+=======
+.c3{
+  text-align: center;
+ 
+  grid-column: 3/4;
+  grid-row: 2/2;
+}
+>>>>>>> 5d2510ae858be26bc126e348f054f6e293b5b148
 
 .mapa{
   text-align: center;
