@@ -133,23 +133,16 @@
 #texto_restaurante{
   width: 100%;
   background-color: #d3d3d3;
-  
-
-
 }
 
 #texto_restaurante h2{
   margin-left: 50%;
- 
-
-
 }
 
 #cartas {
   display: flex;
   flex-direction: row;
   justify-content: center;
-
 }
 
 #cartas ul{
@@ -157,10 +150,54 @@ padding: 70px;
 list-style: none;
 }
 
+
+
 /* CSS Contactos */
 
-footer {
+.main{
+  width: 70%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  justify-content: stretch;
+}      
+
+.menu li, ul {
+  text-decoration: none;
+  display: inline;
+  padding: 25px;
+}
+header {
+  text-align: center;
   background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+h1 {
+  font-size: 24px;
+}
+h2 {
+  font-size: 24px;
+  grid-column: 1/4;
+  grid-row: 1/2;
+  text-align: center;
+}
+
+.container {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.team-member img {
+  max-width: 100%;
+  height: 200px;
+  width: 250px;
+}
+
+footer {
+  background-color: #5a5a5a;
   color: white;
   text-align: center;
   padding: 10px;
@@ -168,34 +205,30 @@ footer {
   bottom: 0;
   width: 100%;
 }
+.c1{
+text-align: center;
+ 
+  grid-column: 1/2;
+  grid-row: 2/3;
 
-/*body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f4f4f4;
-}*/
-
-.contact-info {
-  max-width: 600px;
-  margin: 50px auto;
-  background-color: #fff;
-  padding: 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-h1 {
-  color: #333;
+.c2{
+  text-align: center;
+ 
+  grid-column: 2/3;
+  grid-row: 2/3;
 }
 
-p {
-  margin: 10px 0;
+.c3{
+  text-align: center;
+ 
+  grid-column: 3/4;
+  grid-row: 2/2;
 }
 
-strong {
-  color: #007BFF;
+.mapa{
+  text-align: center;
+  grid-column: 2/3;
+  grid-row: 4/5;
 }
-
-
-
-
