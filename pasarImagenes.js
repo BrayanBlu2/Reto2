@@ -27,7 +27,7 @@ function cambiarImagenGimnasio(direccion) {
   imagen.src = imagenes2[indiceActual2];
 }
 
-const imagenes3 = ["/fotoshotel/hotel.jpg", "/fotoshotel/piscina.jpg", "/fotoshotel/habitación2.jpg"];
+const imagenes3 = ["/fotoshotel/restaurante_desayuno.jpg", "/fotoshotel/restaurante2.jpg",  "/fotoshotel/restaurante.jpg", "/fotoshotel/restaurante4.jpg", "/fotoshotel/restaurante5.jpg"];
 let indiceActual3 = 0;
 
 function cambiarImagenRestaurante(direccion) {
