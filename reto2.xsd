@@ -6,7 +6,8 @@
             <xs:element name ="Reserva" maxOccurs="unbounded"> <!-- Abrimos el elemento reserva que contiene dos elementos dentro, fecha y cliente-->
              <xs:complexType>
                  <xs:sequence><!-- Es una secuencia porque deben aparecer los elementos una vez en el orden específico-->
-                   <xs:element name = "Fecha" type ="xs:date" maxOccurs="unbounded"/><!-- Abrimos y cerramos el elemento fecha -->                                
+                   <xs:element name = "Fecha" type ="xs:date" 
+                   maxOccurs="unbounded"/><!-- Abrimos y cerramos el elemento fecha -->                                
                    <xs:element name ="Cantidad"><!-- Elemento que se refiere al número de personas que contiene la reserva-->
                    <xs:simpleType>
                        <xs:restriction base ="xs:integer">

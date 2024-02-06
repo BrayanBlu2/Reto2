@@ -123,6 +123,7 @@ h2 {
 #texto_izquierda {
   padding: 30px;
   width: 60%;
+  text-align: justify;
 }
 
 #texto_derecha {
@@ -131,9 +132,9 @@ h2 {
   width: 40%;
 }
 
-#texto_derehca img {
+#texto_derecha img {
   width: 100%;
-  height: 100%;
+
 }
 
 #boton_texto {
@@ -350,7 +351,7 @@ form {
 label {
   display: block;
   margin-bottom: 8px;
-  color: #333;
+  color: #333 black;
 }
 
 /* Estilos para los campos de entrada de texto */
@@ -446,12 +447,13 @@ list-style: none;
 #informacion_derecha{
 width: 50%;
 padding: 20px;
+text-align: justify;
 
 }
 #informacion_izquierda{
 padding: 20px;
 width: 50%;
-
+text-align: justify;
 }
 
 #informacion_derecha h1{
