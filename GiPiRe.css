@@ -73,6 +73,7 @@
     flex-direction: column;
     display: flex;
     padding: 30px;
+    text-align: justify;
   }
 
   #texto h2 {
@@ -80,6 +81,10 @@
      background: linear-gradient(to right, #333, #ccc);
     -webkit-background-clip: text;
      color: transparent;
+  }
+
+  #texto h3 {
+    margin: 3%;
   }
 
   .imagen-container {
@@ -112,20 +117,19 @@
   .boton-izquierdo {
     position: absolute;
     backdrop-filter: blur(20px);
-    left: 60px;
+    left: 48px;
   }
   
   .boton-derecho {
     position: absolute;
     backdrop-filter: blur(20px);
-    right: 60px;
+    right: 57px;
   }
 
 #imagenActual{
   width: 60%;
   height: 60%;
-  margin-left:19% ;
- 
+  margin-left: 260px ;
 }
 
 
@@ -171,6 +175,11 @@
 
 }
 
+.parrafo_restaurante{
+  margin-left: 4%;
+  margin-right: 4%;
+  text-align: justify;
+}
 
 
 /* CSS Contactos */
@@ -372,7 +381,7 @@ a {
   
   /* Botones*/
   button{
-    background:#1AAB8A;
+    background:#414242;
     color:#fff;
     border:none;
     position:relative;
@@ -385,7 +394,7 @@ a {
   }
   button:hover{
     background:#fff;
-    color:#1AAB8A;
+    color:#030303;
   }
   button:before,button:after{
     content:'';
@@ -394,7 +403,7 @@ a {
     right:0;
     height:2px;
     width:0;
-    background: #1AAB8A;
+    background: #7a7e7d;
     transition:400ms ease all;
   }
   button:after{

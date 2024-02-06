@@ -1,4 +1,4 @@
-const imagenes1 = ["/fotoshotel/hotel.jpg", "/fotoshotel/piscina.jpg", "/fotoshotel/habitación2.jpg"];
+const imagenes1 = ["/fotoshotel/piscina.jpg", "/fotoshotel/piscinaChico.jpg", "/fotoshotel/piscinaDesbordante.jpg", "/fotoshotel/piscina2.jpg"];
 let indiceActual1 = 0;
 
 function cambiarImagenPiscina(direccion) {
