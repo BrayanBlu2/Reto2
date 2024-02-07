@@ -338,15 +338,6 @@ form {
   grid-column: 1/4;
   grid-row: 3/4;
 }
-.habi1{
-
-}
-.habi2{
-  
-}
-.habi3{
-  
-}
 /* Estilos para las etiquetas */
 label {
   display: block;
@@ -388,11 +379,6 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #45a049;
 }
-
-
-
-
-
 /*Aquí empieza lo de Servicios*/
 
 #contenido_servicios {

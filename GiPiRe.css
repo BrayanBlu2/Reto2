@@ -152,21 +152,16 @@
   margin-left: 30px;
   background-image: url(/fotoshotel/fondoDeCarta.jpg);
 }
-
 #cartas ul{
   padding: 5px;
   list-style: none;
 }
-
 #cartas_izquierda {
   display: flex;
   width: 40%;
   margin-left: 7%;
   margin-top: 11%;
- 
-  
 }
-
 #cartas_derecha {
   margin-top: 11%;
   width: 40%;
@@ -174,14 +169,11 @@
   margin-left: 8%;
 
 }
-
 .parrafo_restaurante{
   margin-left: 4%;
   margin-right: 4%;
   text-align: justify;
 }
-
-
 /* CSS Contactos */
 
 .main{
