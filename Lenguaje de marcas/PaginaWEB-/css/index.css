@@ -1,0 +1,538 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin-top: 100px;
+}
+
+header {
+  box-sizing: border-box;
+  padding: 20px;
+  margin-top: -100px;
+  height: 100px;
+  color: white;
+  width: 100%;
+  background-color: rgb(0,0,0, 0.5);
+  backdrop-filter: blur(20px);
+  position:fixed;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  z-index: 999999;
+}
+
+
+
+#header_izquierda {
+  display: flex;
+  align-items: center;
+  width: 20%;
+}
+
+#header_izquierda img {
+  width: 100px;
+}
+
+#header_derecho {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: right;
+}
+
+#contenido_texto a {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  flex-direction: column;
+}
+
+.estoy {
+  background-color: black;
+}   
+
+.header_boton {
+background-color: rgb(0,0,0, 0.3);
+backdrop-filter: blur(10px);
+color: white;
+padding: 10px;
+border-radius: 10px;
+margin-right: 10px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.header_boton:hover {
+background-color: rgb(255,255,255, 0.1);
+backdrop-filter: blur(4px);
+}
+
+section {
+  display: flex;
+  width: 100%;
+  height: 70%;
+  margin: 0 auto;
+}
+
+section img {
+  width: 20px; 
+  flex-grow: 1;
+  object-fit: cover;
+  filter: brightness(150%);
+  transition: .5s ease;
+  padding-left: 0px;
+}
+
+section img:hover {
+  cursor: pointer;
+  width: 400px;
+  filter: brightness(150%);
+}
+
+#contenido {
+  padding: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  background: linear-gradient(to right, #333, #ccc);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  
+}
+
+#contenido_texto {
+  height: 300px;
+  margin-top: 60px;
+  background-color: #d3d3d3;
+  display: flex;
+  flex-direction: row;
+}
+
+#texto_izquierda {
+  padding: 30px;
+  width: 60%;
+  text-align: justify;
+}
+#texto_izquierda p{
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#texto_derecha {
+  clip-path: polygon(10% 0%, 100% 0%, 100% 100%, 0% 100%);
+  z-index: 9999;
+  width: 40%;
+}
+
+#texto_derecha img {
+  width: 100%;
+
+}
+
+#boton_texto {
+  position: unset;
+  padding: 15px;
+  border-radius: 10px;
+  background: linear-gradient(to right, #8d8d8d, #999); 
+  color: rgb(0, 0, 0);
+  width: 170px;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Aquí empieza el apartado de "Galería"*/
+/*Grid*/
+.main{
+  width: 70%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  border: 1px solid #000000;
+  border-radius: 8px;
+  box-shadow: 30px 30px 80px hsl(30, 1%, 72%);
+}
+.c1{
+  text-align: left;
+  margin-bottom: 20px;
+  grid-column: 1/4;
+  grid-row: 1/2;
+}
+.espacio{
+  padding: 1%;
+  grid-column: 1/4;
+  grid-row: 2/3;
+}
+.c2{
+  margin-bottom: 20px;
+  grid-column: 1/2;
+  grid-row: 3/4;
+  display:flex;
+  text-align: center; /* Centra horizontalmente el contenido dentro del div */
+  align-items: center; /* Centra verticalmente el contenido dentro del div */
+  justify-content: center; /* Centra horizontalmente el contenido dentro del div */
+  width: 80%; /* Ajusta el ancho del contenido */
+  height: 80%; /* Ajusta la altura del contenido */
+  padding-left: 11%;
+}
+.c3{
+  margin: 5%;
+  margin-bottom: 20px;
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+.c3 h4{
+  text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+}
+.c3 p{
+  font-family: 'Courier New', Courier, monospace;
+}
+.c4{
+  text-align: center;
+  margin: 5%;
+  margin-bottom: 20px;
+  grid-column: 3;
+  grid-row: 3/4;
+}
+.c4 p{
+  font-family: 'Courier New', Courier, monospace;
+}
+.c5{
+  margin-bottom: 20px;
+  grid-column: 1;
+  grid-row: 4/5;
+  display:flex;
+  text-align: center; /* Centra horizontalmente el contenido dentro del div */
+  align-items: center; /* Centra verticalmente el contenido dentro del div */
+  justify-content: center; /* Centra horizontalmente el contenido dentro del div */
+  width: 80%; /* Ajusta el ancho del contenido */
+  height: 80%; /* Ajusta la altura del contenido */
+  padding-left: 11%;
+}
+.c6{
+  margin: 5%;
+  margin-bottom: 20px;
+  grid-column: 2/3;
+  grid-row: 4/5;
+}
+.c6 h4{
+  text-align: justify;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 24px;
+}
+.c6 p{
+  font-family: 'Courier New', Courier, monospace;
+}
+.c7{
+  text-align: center;
+  margin: 5%;
+  margin-bottom: 20px;
+  grid-column: 3;
+  grid-row: 4/5
+}
+.c7 p{
+  font-family: 'Courier New', Courier, monospace;
+}
+.c8{
+  text-align: center;
+  margin-bottom: 20px;
+  grid-column: 1;
+  grid-row: 5/6;
+  display:flex;
+  text-align: center; /* Centra horizontalmente el contenido dentro del div */
+  align-items: center; /* Centra verticalmente el contenido dentro del div */
+  justify-content: center; /* Centra horizontalmente el contenido dentro del div */
+  width: 80%; /* Ajusta el ancho del contenido */
+  height: 80%; /* Ajusta la altura del contenido */
+  padding-left: 11%;
+}
+.c9{
+  margin: 5%;
+  margin-bottom: 20px;
+  grid-column: 2/3;
+  grid-row: 5/6;
+}
+.c9 h4{
+  text-align: justify;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 24px;
+}
+.c9 p{
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.c10{
+  text-align: center;
+  margin: 5%;
+  margin-bottom: 20px;
+  grid-column: 3;
+  grid-row: 5/6;
+}
+.c10 p{
+  font-family: 'Courier New', Courier, monospace;
+}
+.c11{
+  margin: 5%;
+  margin-bottom: 20px;
+  grid-column: 1;
+  grid-row: 6/7;
+}
+.c12{
+  text-align: center;
+  margin: 5%;
+  margin-bottom: 20px;
+  grid-column: 2/3;
+  grid-row: 6/7;
+}
+.c13{
+  margin: 5%;
+  margin-bottom: 20px;
+  grid-column: 3;
+  grid-row: 6/7;
+}
+/*Imagenes Grid*/
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  
+}
+.mySlides1 {
+  padding-top: 40%;
+  width: 190px;
+  display: none¡;
+  cursor: pointer;
+  
+}
+.mySlides1 img {
+  width: 100%;
+  transition: transform 0.25s ease;
+  border-radius: 30%;
+}
+.mySlides1 img:hover {
+  transform: scale(2.1);
+}
+.mySlides2 {
+  display: none;
+  padding-top: 40%;
+  width: 190px;
+  cursor: pointer;
+}
+
+.mySlides2 img {
+  width: 100%;
+  transition: transform 0.25s ease;
+  border-radius: 30%;
+}
+
+.mySlides2 img:hover {
+  transform: scale(2.1);
+}
+.mySlides3 {
+  display: none;
+  padding-top: 40%;
+  width: 190px;
+  cursor: pointer;
+}
+
+.mySlides3 img {
+  width: 100%;
+  transition: transform 0.25s ease;
+  border-radius: 30%;
+}
+
+.mySlides3 img:hover {
+  transform: scale(2.1);
+}
+/*Formulario css*/
+.formularioreserva
+ {
+  text-align: center;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  box-shadow: 30px 30px 80px hsl(30, 1%, 72%);
+}
+
+/* Estilos para los títulos de sección */
+.formularioreserva h3 {
+  text-align: center;
+  color: #333;
+  padding-bottom: 10px;
+}
+
+/* Estilos para los subtítulos de sección */
+.formularioreserva h4
+{
+  color: #555;
+}
+
+/* Estilos para los formularios */
+form {
+  text-align: center;
+  grid-column: 1/4;
+  grid-row: 3/4;
+}
+/* Estilos para las etiquetas */
+label {padding: 7px;
+  font-family: 'Courier New', Courier, monospace;
+  display: block;
+  margin-bottom: 8px;
+  color: #333 black;
+}
+
+/* Estilos para los campos de entrada de texto */
+input[type="text"] {
+  width: 70%;
+  padding: 5px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+
+/* Estilos para la lista de elementos del formulario */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+/* Estilos para los botones del formulario */
+input[type="submit"] {
+  background-color: #4b524b;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/* Estilos para los botones cuando el mouse está sobre ellos */
+input[type="submit"]:hover {
+  background-color: #1d201d;
+}
+/*Aquí empieza lo de Servicios*/
+
+#contenido_servicios {
+  height: 600px;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+}
+
+#servicio_derecha {
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  width: 50%;
+  margin-right: 3%;
+  
+}
+#servicios_h2 {
+margin-top: 7%;
+margin-left: 18px;
+}
+
+#servicio_izquierda {
+  padding: 20px;
+  width: 50%;
+}
+#servicio_izquierda li {
+  margin-bottom: 16px;
+}
+#servicio_izquierda h1{
+  text-align: center;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+  background: linear-gradient(to right, #333, #ccc);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bold;
+    text-align: center;
+}
+body h2{
+  text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+#servicio_derecha img {
+  width: 100%;
+  height: 100%;
+
+}
+
+#contenido_servicios li{
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 20px 20px 150px rgb(99, 97, 97);
+}
+#mas_informacion p{
+font-family: 'Courier New', Courier, monospace;
+}
+#mas_informacion {
+  height: 600px;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+}
+
+#mas_informacion li{
+font-family: 'Times New Roman', Times, serif;
+color: brown;
+list-style: none;
+font-size: 20;
+}
+
+#informacion_derecha{
+width: 50%;
+padding: 17px;
+text-align: justify;
+
+}
+#informacion_izquierda{
+padding: 17px;
+width: 50%;
+text-align: justify;
+}
+
+#informacion_izquierda h4{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+}
+#informacion_derecha h4{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+}
+
+#informacion_derecha h1{
+ background-image: url(/imagenes/servicio/agua.gif);
+ background-size: cover;
+ background-position: center;
+ color: transparent;
+ background-clip: text;
+ -webkit-background-clip: text;
+ font-size: 200px;
+ margin-left: 9%;
+}
+p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+}
+h5{
+  background: linear-gradient(to right, #333, #ccc);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}

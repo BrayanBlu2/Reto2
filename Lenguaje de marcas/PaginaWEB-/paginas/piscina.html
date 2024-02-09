@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Enlace al archivo de estilos CSS -->
+  <link rel="stylesheet" type="text/css" href="/css/GiPiRe.css">
+  <!-- Codificación de caracteres -->
+  <meta charset="UTF-8">
+  <!-- Icono de la página -->
+  <link rel="icon" href="/imagenes/icono2.png" type="image/x-icon">
+  <!-- Título de la página -->
+  <title>ETOO</title>
+</head>
+<body id="piscina">
+  <!-- Encabezado de la página -->
+  <header>
+    <!-- Logo del hotel en el lado izquierdo del encabezado -->
+    <div id="header_izquierda"><img src="/imagenes/logoHotelSinFondo.png"></div>
+    <!-- Enlaces a diferentes secciones en el lado derecho del encabezado -->
+    <div id="header_derecho">                    
+      <a class="header_boton" href="/index.html">Información General</a>
+      <a class="header_boton" href="/paginas/reserva.html">Galería</a>
+      <a class="header_boton" href="/paginas/restaurante.html">Restaurante</a>
+      <a class="header_boton" href="/paginas/piscina.html">Piscina</a>
+      <a class="header_boton" href="/paginas/gimnasio.html">Gimnasio</a>
+      <a class="header_boton" href="/paginas/servicios.html">Servicios</a>
+      <a class="header_boton" href="/paginas/contacto.html">Contacto</a>
+    </div>
+  </header>
+
+  <!-- Contenedor de la imagen de la piscina con botones para cambiar entre imágenes -->
+  <div class="imagen-container">
+    <button onclick="cambiarImagenPiscina('anterior')" class="boton-izquierdo">&#10094; Anterior</button>
+    <img src="/imagenes/piscina/piscina.jpg" alt="Imagen 1" id="imagenActual">
+    <button onclick="cambiarImagenPiscina('siguiente')" class="boton-derecho">Siguiente &#10095;</button>
+  </div> 
+
+  <!-- Sección de información sobre la piscina -->
+  <div id="textoP">
+    <!-- Título principal -->
+    <h1>Piscina infinita con vistas a la costa</h1> 
+    <br>
+    <!-- Título secundario -->
+    <h2>Características</h2>
+    <br>
+    <!-- Lista de características de la piscina -->
+    <ul>
+      <li>Piscinas Desbordantes, el agua está al mismo nivel que el suelo de la terraza. Así se genera un bonito efecto lago.</li>
+      <li>El agua está al mismo nivel que el borde. Rebosa y se filtra por todo el perímetro de forma constante.</li>
+      <li>El agua se renueva de forma completa y constante en un período corto de tiempo para mantenerse cristalina y libre de impurezas siempre.</li>
+      <li>La lámina de agua se ve al 100 % desde todos los puntos de vista. Así se aumenta el control visual del espacio y la seguridad.  </li>
+      <li>Las piscinas desbordantes se disfrutan más porque son muy cómodas y limpias. Y el gres porcelánico es suave, súper higiénico y agradable al tacto.  </li>
+      <li>Al rebosar el agua de forma continua y suave, se amortigua el ruido de choque contra las paredes.  </li>
+      <br>
+    </ul>
+  </div>
+     
+  <!-- Script para manejar las imágenes -->
+  <script src="/imagenes/pasarImagenes.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+Ojo muy importante a tomar en cuenta
+existe una posibilidad muy grande de que la pagina web no se pueda cargar directamente
+dando click a los achivos HTML, ya que, este depende de el directorio puesto 
+en el codigo fuente, si este directorio no esta correctamente como se puso 
+en el codigo fuente no se podra ver.
+
+Si se abre mediante un compilador como puede ser VSCodium el archivo 
+probablemente lo reconozca perfectamente.
+
+Tomar muy en cuenta las direcciones de los enlaces.

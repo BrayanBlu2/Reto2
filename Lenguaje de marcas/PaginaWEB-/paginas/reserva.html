@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/imagenes/icono2.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="/css/index.css">
+    <title>ETOO</title>
+</head>
+
+<body>
+    <header>
+        <div id="header_izquierda">
+            <img src="/imagenes/logoHotelSinFondo.png" alt="Logo del Hotel">
+        </div>
+        <div id="header_derecho">
+            <a class="header_boton" href="/index.html">Información General</a>
+            <a class="header_boton" href="/paginas/reserva.html">Galería</a>
+            <a class="header_boton" href="/paginas/restaurante.html">Restaurante</a>
+            <a class="header_boton" href="/paginas/piscina.html">Piscina</a>
+            <a class="header_boton" href="/paginas/gimnasio.html">Gimnasio</a>
+            <a class="header_boton" href="/paginas/servicios.html">Servicios</a>
+            <a class="header_boton" href="/paginas/contacto.html">Contacto</a>
+        </div>
+    </header>
+
+    <div class="main">
+        <div class="c1">
+            <h2>Habitaciones disponibles:</h2>
+        </div>
+        <div class="espacio"></div>
+
+        <div class="c2">
+            <div class="slideshow-container">
+                <div class="mySlides1 fade">
+                    <img src="/imagenes/reserva/camabasica1.jpg" width="100%">
+                </div>
+                <div class="mySlides1 fade">
+                    <img src="/imagenes/reserva/camadoblee.jpg" width="100%">
+                </div>
+                <div class="mySlides1 fade">
+                    <img src="/imagenes/reserva/camabasica3.jpg" width="100%">
+                </div>
+            </div>
+        </div>
+
+        <div class="c3">
+            <h4>Habitación sencilla</h4>
+            <p>
+                Nuestra habitación sencilla de hotel ofrece comodidad y tranquilidad con una cama confortable y un baño privado.
+                Equipada con una televisión y acceso gratuito a internet, también incluye un espacio de trabajo para mantenerte productivo.
+                Disfruta de un ambiente acogedor y una excelente relación calidad-precio, junto con un delicioso desayuno continental cada mañana.
+                ¡Tu estancia en nuestra habitación sencilla será una experiencia cómoda y placentera!
+            </p>
+        </div>
+
+        <div class="c4">
+            </br></br></br><p>49 € Por noche<br>Incluye impuestos y tasas</p>
+            </br><input type="submit" value="Reservar" onclick="scrollToReserva()">
+        </div>
+
+        <div class="c5">
+            <div class="slideshow-container">
+                <div class="mySlides2 fade">
+                    <img src="/imagenes/reserva/habitacion1.jpg" style="width:100%">
+                </div>
+                <div class="mySlides2 fade">
+                    <img src="/imagenes/reserva/camabasica2.jpg" style="width:100%">
+                </div>
+                <div class="mySlides2 fade">
+                    <img src="/imagenes/reserva/camadoble1.jpg" style="width:100%">
+                </div>
+            </div>
+        </div>
+
+        <div class="c6">
+            <h4>Habitación doble</h4>
+            <p>
+                Nuestra habitación doble ofrece comodidad y espacio con dos camas, perfecta para parejas o amigos.
+                Decorada con estilo moderno y elegante, cuenta con todas las comodidades, incluyendo TV y wifi.
+                El baño privado ofrece una ducha espaciosa y artículos de tocador de cortesía.
+                Disfruta de un delicioso desayuno continental y una excelente relación calidad-precio durante tu estancia.
+            </p>
+        </div>
+
+        <div class="c7">
+            </br></br></br><p>63 € Por noche<br>Incluye impuestos y tasas</p>
+            </br><input type="submit" value="Reservar" onclick="scrollToReserva()">
+        </div>
+
+        <div class="c8">
+            <div class="slideshow-container">
+                <div class="mySlides3 fade">
+                    <img src="/imagenes/reserva/camasuit3.jpg" style="width:100%">
+                </div>
+                <div class="mySlides3 fade">
+                    <img src="/imagenes/reserva/habitacion3.jpg" style="width:100%">
+                </div>
+                <div class="mySlides3 fade">
+                    <img src="/imagenes/reserva/suite.jpg" style="width:100%">
+                </div>
+            </div>
+        </div>
+
+        <div class="c9">
+            <h4>Habitación suite</h4>
+            <p>
+                Nuestra suite de hotel ofrece un alojamiento de lujo con dormitorio independiente y amplia sala de estar.
+                Decorada con muebles de alta calidad y detalles sofisticados, proporciona una experiencia elegante y acogedora.
+                El lujoso baño incluye una bañera de hidromasaje y una ducha de lluvia.
+                Disfruta de servicios exclusivos como minibar, desayuno gourmet y acceso al gimnasio y spa del hotel.
+            </p>
+        </div>
+
+        <div class="c10">
+            </br></br></br><p>138 € Por noche<br>Incluye impuestos y tasas</p>
+            </br><input type="submit" value="Reservar" onclick="scrollToReserva()">
+        </div>
+
+        <div class="c11">
+        </div>
+
+        <div class="c12">
+            <h2>Reserva tu habitación aquí:</h2>
+            <form id="formulario_reserva" action="http://localhost/enlaceReserva.php" method="get">
+                <div class="formularioreserva">
+                    <input type="hidden" id="reservas" name="db" value="reto2final">
+                    <input type="hidden" id="reservas" name="table" value="reservas">
+                    <div class="reserva">
+                        <ul>
+                            <li>
+                                <label for="Fecha">Fecha:</label> <input type="date" id="Fecha" name="Fecha" required>
+                                <label for="NumeroPersonas">Número de personas:</label> <input type="text" id="NumeroPersonas" name="NumeroPersonas" required>
+                                <label for="Nombre">Nombre:</label> <input type="text" id="Nombre" name="Nombre" required>
+                                <label for="Apellido">Apellido:</label> <input type="text" id="Apellido" name="Apellido" required>
+                                <label for="Telefono">Teléfono:</label> <input type="text" id="Telefono" name="Telefono" required>
+                                <h3>Dirección:</h3>
+                                <label for="Calle">Calle:</label> <input type="text" id="Calle" name="Calle" required>
+                                <label for="NumeroPortal">Número de Portal:</label> <input type="text" id="NumeroPortal" name="NumeroPortal" required>
+                                <label for="Ciudad">Ciudad:</label> <input type="text" id="Ciudad" name="Ciudad" required>
+                            </li>
+                            <p>
+                                <input type="submit" value="Reservar">
+                            </p>
+                        </ul>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div class="c13">
+        </div>
+    </div>
+</body>
+
+<script>
+    var slideIndex1 = 0;
+    showSlides1();
+
+    function showSlides1() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides1");
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slideIndex1++;
+        if (slideIndex1 > slides.length) {
+            slideIndex1 = 1
+        }
+        slides[slideIndex1 - 1].style.display = "block";
+        setTimeout(showSlides1, 4000);
+    }
+
+    var slideIndex2 = 0;
+    showSlides2();
+
+    function showSlides2() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides2");
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slideIndex2++;
+        if (slideIndex2 > slides.length) {
+            slideIndex2 = 1
+        }
+        slides[slideIndex2 - 1].style.display = "block";
+        setTimeout(showSlides2, 4000);
+    }
+
+    var slideIndex3 = 0;
+    showSlides3();
+
+    function showSlides3() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides3");
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slideIndex3++;
+        if (slideIndex3 > slides.length) {
+            slideIndex3 = 1
+        }
+        slides[slideIndex3 - 1].style.display = "block";
+        setTimeout(showSlides3, 4000);
+    }
+
+    function scrollToReserva() {
+        var formularioReserva = document.getElementById('formulario_reserva');
+        formularioReserva.scrollIntoView({ behavior: 'smooth' });
+    }
+</script>
+
+</html>

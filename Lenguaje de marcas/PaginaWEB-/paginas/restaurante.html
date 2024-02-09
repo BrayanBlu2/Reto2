@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Enlace al archivo de estilos CSS -->
+  <link rel="stylesheet" type="text/css" href="/css/GiPiRe.css">
+  <!-- Definición de la codificación de caracteres -->
+  <meta charset="UTF-8">
+  <!-- Enlace al icono de la página -->
+  <link rel="icon" href="/imagenes/icono2.png" type="image/x-icon">
+  <!-- Título de la página -->
+  <title>ETOO</title>
+</head>
+<body>
+  <!-- Encabezado de la página -->
+  <header>
+    <!-- Logo del hotel en el lado izquierdo del encabezado -->
+    <div id="header_izquierda"><img src="/imagenes/logoHotelSinFondo.png"></div>
+    <!-- Enlaces a diferentes secciones en el lado derecho del encabezado -->
+    <div id="header_derecho">                    
+      <a class="header_boton" href="/index.html">Información General</a>
+      <a class="header_boton" href="/paginas/reserva.html">Galería</a>
+      <a class="header_boton" href="/paginas/restaurante.html">Restaurante</a>
+      <a class="header_boton" href="/paginas/piscina.html">Piscina</a>
+      <a class="header_boton" href="/paginas/gimnasio.html">Gimnasio</a>
+      <a class="header_boton" href="/paginas/servicios.html">Servicios</a>
+      <a class="header_boton" href="/paginas/contacto.html">Contacto</a>
+    </div>
+  </header>    
+
+  <!-- Contenedor de la imagen del restaurante -->
+  <div class="imagen-container">
+    <!-- Botón para ver la imagen anterior -->
+    <button onclick="cambiarImagenRestaurante('anterior')" class="boton-izquierdo">&#10094; Anterior</button>
+    <!-- Imagen actual del restaurante -->
+    <img src="/imagenes/restaurante/restaurante2.jpg" alt="Imagenes 3" id="imagenActual">
+    <!-- Botón para ver la imagen siguiente -->
+    <button onclick="cambiarImagenRestaurante('siguiente')" class="boton-derecho">Siguiente &#10095;</button>
+  </div> 
+
+<!-- Título principal del restaurante -->
+  <div id="texto_restaurante">
+      <h1>El Restaurante</h1> 
+    <br>
+    <div class="parrafo_restaurante">
+    <h2>Descubre la experiencia culinaria de Etoo</h2>
+    <br>
+    <p>
+      Bienvenido a nuestro restaurante, donde la gastronomía se encuentra con la elegancia. Nuestros menús
+       ofrecen una experiencia culinaria que deleitará tus sentidos. Descubre una selección exquisita de platos 
+       cuidadosamente elaborados con ingredientes frescos y de calidad. Disponemos de un menú de 
+       mediodía (de Lunes a Viernes) y 3 cartas rotativas para cenas y fines de semana. Te invitamos 
+       a descubrir la magia de nuestros platos, donde la pasión por la cocina se encuentra con la excelencia en 
+       cada bocado. ¡Haz tu reserva y disfruta de una experiencia gastronómica única en nuestro hotel!
+      </div>
+    </p>
+    <br>
+    <div id="cartas">   
+    <br>
+    <p>   
+      <div id="cartas_izquierda"> 
+      <ul>
+      <p>
+      <h3>Menú del día (L-V)</h3>
+      </p>
+<h5>Entrantes</h5>
+<li>Melón con Jamón</li>
+<li>Salmorejo</li>
+<li>Tallarines con Gambas</li>
+<h5>Platos Principales:</h5>
+<li>Solomillo de Ternera</li>
+<li>Micuit de Pato</li>
+<li>Dorada a la Plancha</li>
+<h5>Postres:</h5>
+<li>Tarta de Queso</li>
+<li>Mousse de Chocolate</li>
+<li>Helado de Vainilla</li>
+<li>Yogur Natural</li>
+<h5>Bebidas:</h5>
+<li>Zumo de Naranja</li>
+<li>Café y Agua (incluidos)</li>
+</ul>
+
+    </p>    
+    <br>     
+      <ul>
+        <h3>Carta 1</h3>
+<h5>Entrantes</h5>
+<li>Tabla de quesos</li>
+<li>Gazpacho</li>
+<li>Jamón ibérico</li>
+<li>Pan de cristal con tomate</li>
+<li>Guisantes con jamón</li>
+<li>Ensaladilla rusa</li>
+<h5>Platos Principales:</h5>
+<li>Rodaballo al horno</li>
+<li>Salpicón de marisco</li>
+<li>Solomillo con pimientos</li>
+<li>Paloma con salsa de chocolate</li>
+<h5>Postres</h5>
+<li>Delicias de helado</li>
+<li>Profiteroles con chocolate</li>
+</ul>
+    </p>
+  </div>
+  <div id="cartas_derecha">
+    <ul>
+      <p>
+      <h3>Carta 2</h3>
+      </p>
+<h5>Entrantes</h5>
+<li>Escalivada</li>
+<li>Bombas de patata rellenas de carne</li>
+<li>Xató</li>
+<li>Empedrat</li>
+<li>Coca de recapte</li>
+<li>Platos Principales:</h5>
+<li>Paloma torcaz estofada</li>
+<li>Merluza en salsa verde</li>
+<li>Entrecot de ternera</li>
+<h5>Postres:</h5>
+<li>Sorbete de cava</li>
+<li>Brownie de chocolate</li>
+</ul>
+
+<ul>
+  <p>
+  <h3>Carta 3</h3>
+  </p>
+<h5>Entrantes</h5>
+<li>Esqueixada</li>
+<li>Espinacas a la catalana</li>
+<li>Sopa de tomillo</li>
+<li>Sopa de galets</h5>
+<li>Albóndigas con sepia</li>
+<li>Fricandó</li>
+<li>Bacalao a la Llauna</li>
+<li>Escudella</li>
+<h5>Postres:</h5>
+<li>Crema catalana</li>
+<li>Horchata</li>
+<li>Trufas</li>
+</ul>
+</div> 
+</div>
+</div>
+<script src="/imagenes/pasarImagenes.js"></script>
+    </body>
+</html>
