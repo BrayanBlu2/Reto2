@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Registro xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="reto2.xsd">
+    <Reserva>  <!-- Esta es la primera reserva-->      
+            <Fecha>2024-01-23</Fecha> <!-- La fecha de la reserva-->    
+            <Cantidad>2</Cantidad>
+            <Nombre>Carlos</Nombre> 
+            <Apellido>Alvarez</Apellido>   
+            <Telefono>654659825</Telefono>            
+            <Calle>Los Astilleros</Calle> 
+            <NumeroPortal>12</NumeroPortal>
+            <Ciudad>Vigo</Ciudad>       
+   
+    </Reserva> <!-- Cerramos la primera reserva-->
+    <Reserva> <!-- Esta es la segunda reserva-->
+            <Fecha>2024-01-26</Fecha> <!-- La fecha de la reserva-->    
+            <Cantidad>1</Cantidad>     
+            <Nombre>Marta</Nombre> 
+            <Apellido>Rico</Apellido>   
+            <Telefono>666547898</Telefono>        
+            <Calle>Lope de Vega</Calle> 
+            <NumeroPortal>34</NumeroPortal>
+            <Ciudad>Madrid</Ciudad>  
+        
+    </Reserva>
+    <Reserva> 
+            <Fecha>2024-02-09</Fecha> <!-- La fecha de la reserva-->    
+            <Cantidad>2</Cantidad>     
+            <Nombre>Miguel</Nombre> 
+            <Apellido>Fernandez</Apellido>   
+            <Telefono>646577898</Telefono>        
+            <Calle>Passeig Maritim</Calle> 
+            <NumeroPortal>78</NumeroPortal>
+            <Ciudad>Barcelona</Ciudad> 
+    </Reserva>
+
+    <Reserva> 
+            <Fecha>2024-02-16</Fecha> <!-- La fecha de la reserva-->    
+            <Cantidad>2</Cantidad>     
+            <Nombre>Sandra</Nombre> 
+            <Apellido>Lopez</Apellido>   
+            <Telefono>631545891</Telefono>        
+            <Calle>Carrer Marina</Calle> 
+            <NumeroPortal>11</NumeroPortal>
+            <Ciudad>Barcelona</Ciudad> 
+
+    </Reserva>
+
+    <Reserva> 
+            <Fecha>2024-02-22</Fecha> <!-- La fecha de la reserva-->    
+            <Cantidad>1</Cantidad>     
+            <Nombre>Jordi</Nombre> 
+            <Apellido>Gassol</Apellido>   
+            <Telefono>622547778</Telefono>        
+            <Calle>Avinguda Diagonal</Calle> 
+            <NumeroPortal>511</NumeroPortal>
+            <Ciudad>Barcelona</Ciudad> 
+    </Reserva>
+
+
+    <Reserva> 
+            <Fecha>2024-03-03</Fecha> <!-- La fecha de la reserva-->    
+            <Cantidad>1</Cantidad>     
+            <Nombre>Montse</Nombre> 
+            <Apellido>Pujades</Apellido>   
+            <Telefono>621547890</Telefono>        
+            <Calle>Plaça Concordia</Calle> 
+            <NumeroPortal>2</NumeroPortal>
+            <Ciudad>Barcelona</Ciudad> 
+    </Reserva>
+
+    <Reserva> 
+            <Fecha>2024-03-11</Fecha> <!-- La fecha de la reserva-->    
+            <Cantidad>2</Cantidad>     
+            <Nombre>Marc</Nombre> 
+            <Apellido>Imbert</Apellido>   
+            <Telefono>655543899</Telefono>        
+            <Calle>Sor Eulalia Danzizu</Calle> 
+            <NumeroPortal>11</NumeroPortal>
+            <Ciudad>Barcelona</Ciudad>  
+        
+    </Reserva>
+    <Reserva> 
+            <Fecha>2024-04-02</Fecha> <!-- La fecha de la reserva-->    
+            <Cantidad>2</Cantidad>     
+            <Nombre>Albert</Nombre> 
+            <Apellido>Garcia</Apellido>   
+            <Telefono>611742899</Telefono>        
+            <Calle>Passeig de Gracia</Calle> 
+            <NumeroPortal>102</NumeroPortal>
+            <Ciudad>Barcelona</Ciudad> 
+    </Reserva>
+
+    <Reserva> 
+            <Fecha>2024-04-13</Fecha> <!-- La fecha de la reserva-->    
+            <Cantidad>1</Cantidad>     
+            <Nombre>Monica</Nombre> 
+            <Apellido>Ferrer</Apellido>   
+            <Telefono>655517892</Telefono>        
+            <Calle>Entença</Calle> 
+            <NumeroPortal>12</NumeroPortal>
+            <Ciudad>Barcelona</Ciudad> 
+
+    </Reserva>
+
+    <Reserva> 
+            <Fecha>2024-04-30</Fecha> <!-- La fecha de la reserva-->    
+            <Cantidad>2</Cantidad>     
+            <Nombre>Ignasi</Nombre> 
+            <Apellido>Llorens</Apellido>   
+            <Telefono>633547899</Telefono>        
+            <Calle>Rambla Catalunya</Calle> 
+            <NumeroPortal>09</NumeroPortal>
+            <Ciudad>Barcelona</Ciudad> 
+    </Reserva> <!-- Cerramos la última de las reservas-->
+
+
+</Registro> <!-- Aquí cerramos el registro de las reservas-->

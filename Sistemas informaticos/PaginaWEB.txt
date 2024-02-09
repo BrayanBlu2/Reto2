@@ -1,0 +1,9 @@
+Conexion a servidor WEB
+
+Seleccionamos como opcion el servidor de "Dinahosting" para colocar en internet nuestra pagina web.
+Hemos tenido que insertar los archivos HTML junto con las carpetas correspondientes.
+Exportamos la base de datos que creamos en localhost para luego importarla dentro del servidor de "Dinahosting" para almacenar los datos.
+Hicimos la conexion de el servidor web y la base de datos mediante un archivo "PHP" que contiene la direccion de la base de datos.
+
+El enlace o direccion es:
+Kirolariburuz.eus
